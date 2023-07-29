@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.router {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 5px black;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.nav .link {
+    color: white;
+    transition: 0.2s elastic;
+    font-weight: bolder;
+}
+
+.nav .link:hover {
+    color: red;
+    font-weight: bolder;
+    transition: 0.2s elastic;
+}
+
+.searching {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn,
+.inpt {
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    border-radius: 10px;
+    outline: none;
+    outline-style: none;
+    font-weight: bolder;
+}
+
+.MoviesDeatials {
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.innerbox {
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    object-fit: cover;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.subdtl {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
